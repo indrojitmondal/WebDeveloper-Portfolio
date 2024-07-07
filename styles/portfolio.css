@@ -104,6 +104,7 @@ nav li a{
 .skills-container{
     display: flex;
     gap: 24px;
+   
 }
 .skills{
     padding: 30px;
@@ -127,6 +128,32 @@ nav li a{
     width: 584px;
     height: 676px;
 }
+.my-exp{
+    font-weight: bold;
+    font-size: 30px;
+}
+.ex-title{
+    font-weight: bold;
+    font-size: 25px;
+}
+.comp{
+    font-weight: 600;
+    font-size: 20px;
+}
+.exp-des{
+    font-weight: 400;
+    font-size: 16px;
+    color: gba(117, 117, 117, 1)
+}
+.resume-title{
+    font-weight: bold ;
+    font-size: 35px;
+    /* margin-bottom: 113px; */
+
+}
+.dark-3{
+    color: rgba(117, 117, 117, 1);
+}
 .banner{
     display: flex;
     justify-content: space-between;
@@ -143,4 +170,36 @@ nav li a{
     background-repeat: no-repeat;
     background-position: top left, bottom right;
     
+}
+.resume-conatainer{
+    display: flex;
+    gap: 24px;
+}
+.experience-sub-title{
+    margin-bottom: 20px;
+}
+.resume hr{
+    margin: 20px 5px;
+}
+.resume-download-cv{
+    margin-top: 50px;
+}
+footer{
+    padding: 130px 230px; 
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%
+}
+footer input[type="text"], input[type="email"], textarea{
+    height: 64px;
+    border-radius: 5px;
+    display: block;
+    background-color: white;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+
 }
